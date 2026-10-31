@@ -1,0 +1,19 @@
+{
+ "dets": [
+  "/home/minsoogo/mot_logs/dets/kittimots_train/x_reid.npz",
+  "/home/minsoogo/mot_logs/dets/kittimots_train/cascade_rcnn_reid.npz",
+  "/home/minsoogo/mot_logs/dets/kittimots_train/v6_reid.npz"
+ ],
+ "holdout": [
+  "0001",
+  "0019"
+ ],
+ "epochs": 20,
+ "samples": 10159,
+ "selection": "best holdout online HOTA",
+ "best_epoch": 15,
+ "sim_threshold": 0.51,
+ "holdout_online_hota": 0.6412254134440302,
+ "holdout_online_assa": 0.5530795034699869,
+ "version": "v1.1-b"
+}

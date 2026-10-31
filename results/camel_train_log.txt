@@ -1,0 +1,80 @@
+2026-10-30 17:18:21  gate: /home/minsoogo/mot_logs/dets/kittimots_train/cascade_rcnn_reid.npz seq 0020, 64 samples (fixed), 600 steps, no augmentation
+2026-10-30 17:18:22  box mean [0.3269999921321869, 0.49300000071525574, 0.06400000303983688, 0.13899999856948853, 0.9660000205039978]  std [0.1720000058412552, 0.03500000014901161, 0.054999999701976776, 0.10199999809265137, 0.10100000351667404]
+2026-10-30 17:18:23  gate step 0: loss 2.5597
+2026-10-30 17:18:27  gate step 50: loss 0.0005
+2026-10-30 17:18:31  gate step 100: loss 0.0003
+2026-10-30 17:18:35  gate step 150: loss 0.0002
+2026-10-30 17:18:39  gate step 200: loss 0.0002
+2026-10-30 17:18:43  gate step 250: loss 0.0001
+2026-10-30 17:18:48  gate step 300: loss 0.0001
+2026-10-30 17:18:52  gate step 350: loss 0.0001
+2026-10-30 17:18:56  gate step 400: loss 0.0001
+2026-10-30 17:19:00  gate step 450: loss 0.0001
+2026-10-30 17:19:04  gate step 500: loss 0.0001
+2026-10-30 17:19:08  gate step 550: loss 0.0001
+2026-10-30 17:19:12  gate step 599: loss 0.0001
+2026-10-30 17:19:12  gate result: association accuracy 1.000 at threshold 0.360 (balanced 1.000) -> PASS
+2026-10-30 17:19:17  train: 3 detection files, 30 sequences, 51587 detections (score >= 0.4), 10159 samples; holdout ['0001', '0019']: 6709 samples
+2026-10-30 17:19:18  box mean [0.3959999978542328, 0.47699999809265137, 0.06400000303983688, 0.15800000727176666, 0.859000027179718]  std [0.22300000488758087, 0.04399999976158142, 0.057999998331069946, 0.12800000607967377, 0.15399999916553497]
+2026-10-30 17:19:18  CAMEL parameters: 43.00 M
+2026-10-30 17:21:25  epoch 1/20: loss 0.7378  holdout balanced 0.914 at 0.685, association acc 0.900  (126 s)
+2026-10-30 17:23:31  epoch 2/20: loss 0.3730  holdout balanced 0.932 at 0.615, association acc 0.925  (126 s)
+2026-10-30 17:25:37  epoch 3/20: loss 0.3046  holdout balanced 0.931 at 0.635, association acc 0.921  (126 s)
+2026-10-30 17:27:45  epoch 4/20: loss 0.2528  holdout balanced 0.934 at 0.630, association acc 0.934  (127 s)
+2026-10-30 17:29:52  epoch 5/20: loss 0.2258  holdout balanced 0.935 at 0.590, association acc 0.921  (127 s)
+2026-10-30 17:31:59  epoch 6/20: loss 0.2006  holdout balanced 0.935 at 0.580, association acc 0.927  (127 s)
+2026-10-30 17:34:06  epoch 7/20: loss 0.1797  holdout balanced 0.937 at 0.575, association acc 0.927  (126 s)
+2026-10-30 17:36:12  epoch 8/20: loss 0.1453  holdout balanced 0.935 at 0.575, association acc 0.919  (126 s)
+2026-10-30 17:38:19  epoch 9/20: loss 0.1381  holdout balanced 0.927 at 0.535, association acc 0.906  (126 s)
+2026-10-30 17:40:26  epoch 10/20: loss 0.1163  holdout balanced 0.940 at 0.550, association acc 0.923  (127 s)
+2026-10-30 17:42:32  epoch 11/20: loss 0.0993  holdout balanced 0.945 at 0.555, association acc 0.931  (126 s)
+2026-10-30 17:44:39  epoch 12/20: loss 0.0874  holdout balanced 0.942 at 0.515, association acc 0.936  (126 s)
+2026-10-30 17:46:46  epoch 13/20: loss 0.0798  holdout balanced 0.951 at 0.565, association acc 0.930  (126 s)
+2026-10-30 17:48:52  epoch 14/20: loss 0.0659  holdout balanced 0.949 at 0.505, association acc 0.943  (126 s)
+2026-10-30 17:50:59  epoch 15/20: loss 0.0577  holdout balanced 0.956 at 0.515, association acc 0.946  (126 s)
+2026-10-30 17:53:06  epoch 16/20: loss 0.0498  holdout balanced 0.954 at 0.520, association acc 0.942  (127 s)
+2026-10-30 17:55:13  epoch 17/20: loss 0.0479  holdout balanced 0.958 at 0.520, association acc 0.946  (126 s)
+2026-10-30 17:57:19  epoch 18/20: loss 0.0434  holdout balanced 0.957 at 0.530, association acc 0.938  (126 s)
+2026-10-30 17:59:26  epoch 19/20: loss 0.0411  holdout balanced 0.958 at 0.510, association acc 0.949  (126 s)
+2026-10-30 18:01:32  epoch 20/20: loss 0.0418  holdout balanced 0.958 at 0.515, association acc 0.945  (126 s)
+2026-10-30 18:01:46  done: sim_threshold 0.515, holdout association accuracy 0.944 -> /home/minsoogo/Physical_AI/projects/Physical_AI_Detection_dev3/runs/camel/camel_kittimots.pth
+2026-10-31 06:17:36  gate: /home/minsoogo/mot_logs/dets/kittimots_train/x_reid.npz seq 0020, 64 samples (fixed), 600 steps, no augmentation
+2026-10-31 06:17:38  box mean [0.3310000002384186, 0.48899999260902405, 0.06499999761581421, 0.14399999380111694, 0.8199999928474426]  std [0.16599999368190765, 0.028999999165534973, 0.0560000017285347, 0.10499999672174454, 0.13600000739097595]
+2026-10-31 06:17:39  gate step 0: loss 2.5024
+2026-10-31 06:17:44  gate step 50: loss 0.0008
+2026-10-31 06:17:48  gate step 100: loss 0.0005
+2026-10-31 06:17:53  gate step 150: loss 0.0002
+2026-10-31 06:17:57  gate step 200: loss 0.0003
+2026-10-31 06:18:02  gate step 250: loss 0.0002
+2026-10-31 06:18:06  gate step 300: loss 0.0001
+2026-10-31 06:18:10  gate step 350: loss 0.0001
+2026-10-31 06:18:15  gate step 400: loss 0.0001
+2026-10-31 06:18:19  gate step 450: loss 0.0001
+2026-10-31 06:18:24  gate step 500: loss 0.0001
+2026-10-31 06:18:28  gate step 550: loss 0.0001
+2026-10-31 06:18:32  gate step 599: loss 0.0001
+2026-10-31 06:18:32  gate result: association accuracy 1.000 at threshold 0.710 (balanced 1.000) -> PASS
+2026-10-31 06:18:38  train: 3 detection files, 30 sequences, 51587 detections (score >= 0.4), 10159 samples; holdout ['0001', '0019']: 6709 samples
+2026-10-31 06:18:38  box mean [0.3959999978542328, 0.47699999809265137, 0.06400000303983688, 0.15800000727176666, 0.859000027179718]  std [0.22300000488758087, 0.04399999976158142, 0.057999998331069946, 0.12800000607967377, 0.15399999916553497]
+2026-10-31 06:18:38  CAMEL parameters: 43.00 M
+2026-10-31 06:23:05  epoch 1/20: loss 0.8960  holdout pairs balanced 0.929 at 0.670, recall 0.901 | holdout ONLINE HOTA 0.611 AssA 0.497  (267 s)
+2026-10-31 06:27:32  epoch 2/20: loss 0.4697  holdout pairs balanced 0.943 at 0.630, recall 0.912 | holdout ONLINE HOTA 0.624 AssA 0.522  (267 s)
+2026-10-31 06:32:00  epoch 3/20: loss 0.3704  holdout pairs balanced 0.942 at 0.605, recall 0.918 | holdout ONLINE HOTA 0.609 AssA 0.499  (267 s)
+2026-10-31 06:36:27  epoch 4/20: loss 0.3163  holdout pairs balanced 0.938 at 0.575, recall 0.922 | holdout ONLINE HOTA 0.623 AssA 0.524  (266 s)
+2026-10-31 06:40:54  epoch 5/20: loss 0.2893  holdout pairs balanced 0.945 at 0.575, recall 0.911 | holdout ONLINE HOTA 0.621 AssA 0.520  (267 s)
+2026-10-31 06:45:22  epoch 6/20: loss 0.2499  holdout pairs balanced 0.948 at 0.555, recall 0.920 | holdout ONLINE HOTA 0.631 AssA 0.536  (268 s)
+2026-10-31 06:49:51  epoch 7/20: loss 0.2293  holdout pairs balanced 0.940 at 0.550, recall 0.916 | holdout ONLINE HOTA 0.628 AssA 0.529  (268 s)
+2026-10-31 06:54:18  epoch 8/20: loss 0.2066  holdout pairs balanced 0.940 at 0.530, recall 0.919 | holdout ONLINE HOTA 0.614 AssA 0.510  (266 s)
+2026-10-31 06:58:46  epoch 9/20: loss 0.1838  holdout pairs balanced 0.938 at 0.570, recall 0.914 | holdout ONLINE HOTA 0.613 AssA 0.508  (268 s)
+2026-10-31 07:03:12  epoch 10/20: loss 0.1648  holdout pairs balanced 0.948 at 0.565, recall 0.917 | holdout ONLINE HOTA 0.623 AssA 0.528  (266 s)
+2026-10-31 07:07:40  epoch 11/20: loss 0.1400  holdout pairs balanced 0.951 at 0.590, recall 0.912 | holdout ONLINE HOTA 0.610 AssA 0.504  (267 s)
+2026-10-31 07:12:05  epoch 12/20: loss 0.1246  holdout pairs balanced 0.952 at 0.540, recall 0.916 | holdout ONLINE HOTA 0.613 AssA 0.510  (265 s)
+2026-10-31 07:16:31  epoch 13/20: loss 0.1070  holdout pairs balanced 0.952 at 0.535, recall 0.918 | holdout ONLINE HOTA 0.625 AssA 0.528  (265 s)
+2026-10-31 07:20:58  epoch 14/20: loss 0.0986  holdout pairs balanced 0.954 at 0.510, recall 0.932 | holdout ONLINE HOTA 0.623 AssA 0.526  (266 s)
+2026-10-31 07:25:25  epoch 15/20: loss 0.0863  holdout pairs balanced 0.957 at 0.510, recall 0.934 | holdout ONLINE HOTA 0.641 AssA 0.553  (267 s)
+2026-10-31 07:29:50  epoch 16/20: loss 0.0833  holdout pairs balanced 0.953 at 0.510, recall 0.922 | holdout ONLINE HOTA 0.629 AssA 0.535  (265 s)
+2026-10-31 07:34:17  epoch 17/20: loss 0.0730  holdout pairs balanced 0.953 at 0.505, recall 0.921 | holdout ONLINE HOTA 0.625 AssA 0.530  (266 s)
+2026-10-31 07:38:44  epoch 18/20: loss 0.0704  holdout pairs balanced 0.955 at 0.505, recall 0.924 | holdout ONLINE HOTA 0.625 AssA 0.530  (267 s)
+2026-10-31 07:43:11  epoch 19/20: loss 0.0676  holdout pairs balanced 0.955 at 0.505, recall 0.923 | holdout ONLINE HOTA 0.623 AssA 0.527  (266 s)
+2026-10-31 07:47:37  epoch 20/20: loss 0.0648  holdout pairs balanced 0.956 at 0.505, recall 0.924 | holdout ONLINE HOTA 0.626 AssA 0.532  (266 s)
+2026-10-31 07:47:38  done: best epoch 15 (holdout online HOTA 0.641, AssA 0.553), sim_threshold 0.510 -> /home/minsoogo/Physical_AI/projects/Physical_AI_Detection_dev3/runs/camel/camel_kittimots.pth
